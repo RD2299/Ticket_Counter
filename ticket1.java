@@ -52,18 +52,18 @@ public class ticket1 {
     {
         long start=System.currentTimeMillis();
         long end=start+(1*1000);
-        while(System.currentTimeMillis()<end) {
+        //while(System.currentTimeMillis()<end) {
             int p = rd.nextInt(5);
             if (!empt(p)) {
                 tick[p][first[p]] = 0;
                 count[p] += 1;
                 first[p] = (first[p] + 1) % 5;
             }
-            else //if (count[0] != 0 || count[1] != 0 || count[2] != 0 || count[3] != 0 || count[4] != 0)
-                 {
-                unqueue1();
-            }
-        }
+//            else if (count[0] != 0 || count[1] != 0 || count[2] != 0 || count[3] != 0 || count[4] != 0)
+//                 {
+//                unqueue1();
+//            }
+//        }
         System.out.println("Ticket operation of some people is done");
     }
     public void printticketline() throws InterruptedException {
