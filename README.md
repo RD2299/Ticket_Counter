@@ -1,5 +1,5 @@
 # Ticket Counter
-Data Structure Programs, versions and implementations
+Ticket Counter Programs, versions and implementations
 
 ## Table of Contents
 * [General info](#general-info)
