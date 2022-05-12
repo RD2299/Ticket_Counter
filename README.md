@@ -1,2 +1,2 @@
-# DSA_1
+# Ticket_Counter
 Data Structure Programs, versions and implementations 
