@@ -1,3 +1,8 @@
+# Changes made:
+
+Queue engagement takes place in intervals and has to be called more than one time. 
+This allows user to print different state of the queue from Original until completion of that round of ticket dispersal
+
 # Ticket Counter
 Ticket Counter Programs, versions and implementations
 
@@ -20,3 +25,4 @@ This is simulation of Movie Ticket counter queue. Various ways of how a queue op
 * Lines of Code = 
 * Methods used =
 * Constructor used = 
+
